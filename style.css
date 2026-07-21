@@ -373,10 +373,13 @@ transform:translateY(0);}
 @media (max-width:768px) {
 .navbar {padding:25px 20px;}
 
-.menu {gap:25px;}
+.menu {gap:30px;}
 
-.menu a {font-size:11px;
-letter-spacing:2px;}
+.menu a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
 
 .hero {padding:40px 25px;}
 
