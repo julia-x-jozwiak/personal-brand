@@ -1,270 +1,166 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Julia | Web Developer</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 
 <body>
 
-
 <nav class="navbar">
-
-   
     <ul class="menu">
-
-        <li>
-            <a href="#about">O MNIE</a>
-        </li>
-
-        <li>
-            <a href="#projects">PROJEKTY</a>
-        </li>
-
-        <li>
-            <a href="#contact">KONTAKT</a>
-        </li>
-
+        <li><a href="#about">O MNIE</a></li>
+        <li><a href="#projects">PROJEKTY</a></li>
+        <li><a href="#contact">KONTAKT</a></li>
     </ul>
-
 </nav>
-
-
 
 <header class="hero">
 
-
     <div class="hero-text">
 
-
-        <p class="subtitle reveal">
-            julia jóźwiak
-        </p>
-
+        <p class="subtitle reveal">JULIA JÓŹWIAK</p>
 
         <h1 class="reveal">
-             WEB DEVELOPER & SYSTEM ADMINISTRATOR
+            WEB DEVELOPER <br>
+            & SYSTEM ADMINISTRATOR
         </h1>
-
 
         <p class="description reveal">
             <span>TECHNOLOGIA.</span>
-             <span>ESTETYKA.</span>
-             <span>CZŁOWIEK.</span>
+            <span>ESTETYKA.</span>
+            <span>CZŁOWIEK.</span>
         </p>
 
-
         <a href="#projects" class="button reveal">
-            Zobacz moje projekty
+            Zobacz projekty
         </a>
 
-
     </div>
-
-
 
     <div class="hero-image">
-
-        <img src="images/julia.jpg" alt="Julia">
-
+        <img src="images/julia.jpg" alt="Julia Jóżwiak">
     </div>
-
 
 </header>
 
+<main>
 
+<section id="about" class="about">
 
-
-
-<section class="about" id="about">
-
-    <p class="section-title">
-        O MNIE
-    </p>
-
+    <p class="section-title">O MNIE</p>
 
     <h2>
         Łączę technologię,
         estetykę i zrozumienie człowieka.
     </h2>
 
-
     <div class="about-cards">
 
-
-        <div class="card reveal-scroll delay-1">
-
-            <span class="number">
-                01
-            </span>
-
-            <h3>
-                INFRASTRUKTURA I ADMINISTRACJA
-            </h3>
-
+        <article class="card reveal-scroll delay-1">
+            <h3>01 — INFRASTRUKTURA</h3>
             <p>
-                Techniczne zaplecze projektów.
+                Administracja systemami, konfiguracja środowisk,
+                sieci oraz techniczne zaplecze projektów.
             </p>
+        </article>
 
-        </div>
-
-
-
-        <div class="card reveal-scroll delay-2">
-
-            <span class="number">
-                02
-            </span>
-
-            <h3>
-                WEB DEVELOPMENT
-            </h3>
-
+        <article class="card reveal-scroll delay-2">
+            <h3>02 — WEB DEVELOPMENT</h3>
             <p>
-                Kod, funkcjonalność i świadomy design.
+                Tworzę nowoczesne strony internetowe
+                z wykorzystaniem HTML, CSS i JavaScript,
+                dbając o czytelny kod i dobrą architekturę.
             </p>
+        </article>
 
-        </div>
-
-
-
-        <div class="card reveal-scroll delay-3">
-
-            <span class="number">
-                03
-            </span>
-
-            <h3>
-                UX
-            </h3>
-
+        <article class="card reveal-scroll delay-3">
+            <h3>03 — USER EXPERIENCE</h3>
             <p>
-                Psychologia użytkownika. Intuicyjne doświadczenia.
+                Projektuję rozwiązania,
+                które są estetyczne,
+                intuicyjne i przyjazne dla użytkownika.
             </p>
-
-        </div>
-
+        </article>
 
     </div>
 
-
 </section>
 
-<section class="projects" id="projects">
+<section id="projects" class="projects">
 
-    <p class="section-title">
-        PROJEKTY
-    </p>
-
+    <p class="section-title">PROJEKTY</p>
 
     <h2>
-        Wybrane projekty
+        Wybrane realizacje
         łączące kod i design.
     </h2>
 
-
     <div class="project-list">
 
+        <article class="project reveal-scroll">
+            <span>01</span>
 
-        <div class="project reveal-scroll">
-
-            <span>
-                01
-            </span>
-
-            <h3>
-                Portfolio Website
-            </h3>
+            <h3>Portfolio Website</h3>
 
             <p>
-                Projekt osobistej strony internetowej
-                łączącej web development,
-                estetykę i doświadczenie użytkownika.
+                Responsywna strona portfolio z animacjami,
+                uporządkowaną architekturą CSS
+                i nowoczesnym interfejsem.
             </p>
 
-            <small>
-                HTML · CSS · JavaScript
-            </small>
+            <small>HTML · CSS · JavaScript</small>
+        </article>
 
-        </div>
+        <article class="project reveal-scroll">
+            <span>02</span>
 
-
-
-        <div class="project reveal-scroll">
-
-            <span>
-                02
-            </span>
-
-            <h3>
-                System Administration
-            </h3>
+            <h3>System Administration Lab</h3>
 
             <p>
-                Projekty związane z administracją,
-                konfiguracją systemów
-                i infrastrukturą.
+                Konfiguracja systemów Linux i Windows,
+                podstawy sieci oraz automatyzacja
+                codziennych zadań administracyjnych.
             </p>
 
-            <small>
-                Linux · Windows · Networks
-            </small>
-
-        </div>
-
-
+            <small>Linux · Windows · Networking</small>
+        </article>
 
     </div>
 
-
 </section>
 
+<section id="contact" class="contact reveal-scroll">
 
-<section class="contact reveal-scroll" id="contact">
-
-    <p class="section-title">
-        KONTAKT
-    </p>
-
+    <p class="section-title">KONTAKT</p>
 
     <h2>
         Masz pomysł?
         <span>Stwórzmy coś razem.</span>
     </h2>
 
-
     <p class="contact-text">
-        Jestem otwarta na projekty związane
-        z web developmentem, designem
-        i technologią.
+        Jeśli szukasz osoby do stworzenia strony internetowej
+        lub projektu związanego z technologią,
+        zapraszam do kontaktu.
     </p>
 
-
-    <a href="#" class="contact-button">
+    <a class="contact-button" href="mailto:julia.x.jozwiak@proton.me">
         NAPISZ DO MNIE
     </a>
 
-
 </section>
 
+</main>
 
 <script src="script.js"></script>
 
-
 </body>
-
 </html>
