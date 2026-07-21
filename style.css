@@ -370,10 +370,24 @@ transform:translateY(0);}
    RESPONSIVE
 ========================================================== */
 
-@media (max-width:768px) {
-.navbar {padding:25px 20px;}
+.navbar {
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 20px 16px;
+}
 
-.menu {gap:30px;}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 22px;
+
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
 
 .menu a {
     font-size: 11px;
@@ -400,8 +414,6 @@ gap:30px;}
 .card {border-right:none;
 border-bottom:1px solid var(--border-light);
 padding-bottom:30px;}
-
-}
 
 .section {
     scroll-margin-top:0px;
