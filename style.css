@@ -32,7 +32,7 @@ html  {
     --transition:.4s ease;
     --transition-slow:.8s ease;
 
-    --section-padding:150px 300px;
+    --section-padding:120px 80px;
     --section-padding-mobile:80px 25px;
 }
 
@@ -119,7 +119,7 @@ body {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:120px 120px 120px;
+    padding:120px 80px 80px;
 }
 
 .hero-text {
