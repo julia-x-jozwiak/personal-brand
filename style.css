@@ -32,7 +32,7 @@ html  {
     --transition:.4s ease;
     --transition-slow:.8s ease;
 
-    --section-padding:120px 80px;
+    --section-padding:150px 300px;
     --section-padding-mobile:80px 25px;
 }
 
@@ -119,7 +119,7 @@ body {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:120px 80px 80px;
+    padding:120px 120px 120px;
 }
 
 .hero-text {
@@ -219,15 +219,15 @@ body {
 ========================================================== */
 
 .about {
-    min-height: 85vh;
+    min-height: 100vh;
     padding: var(--section-padding);
 }
 
 .about-heading {
-    max-width: 900px;
-    margin-bottom: 100px;
+    max-width: 1000px;
+    margin-bottom: 150px;
 
-    font-size: 56px;
+    font-size: 80px;
     font-weight: 300;
     line-height: 1.2;
 
@@ -300,14 +300,14 @@ margin-top:25px;}
 ========================================================== */
 
 .contact {
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 180px 80px 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.contact h2 {max-width:900px;
+.contact h2 {max-width:1200px;
 font-size:65px;
 font-weight:300;
 line-height:1.2;
